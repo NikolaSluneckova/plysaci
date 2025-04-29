@@ -2,7 +2,7 @@ import { czechitasRenderVitePlugin } from '@czechitas/render/plugin';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: 'src/pages/index.html',
+  root: 'src/pages',
   publicDir: '../../public',
   server: {
     hmr: false,
